@@ -1,0 +1,6 @@
+#This is an example LayerCI configuration for React!
+FROM vm/ubuntu:18.04
+
+# Create a unique link to share the app in this runner.
+# Every time someone clicks the link, we'll wake up this staging server.
+EXPOSE WEBSITE http://localhost:3000
